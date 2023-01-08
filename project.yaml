@@ -1,0 +1,18 @@
+kind: project
+metadata:
+  name: testing-0
+  created: '2023-01-08T16:35:16.816536'
+spec:
+  functions:
+  - url: func.py
+    name: func-1
+    kind: job
+    image: mlrun/mlrun
+    handler: func
+  workflows:
+  - path: workflow.py
+    name: main
+  artifacts: []
+  source: git://github.com/GiladShapira94/test_mem.git
+  load_source_on_run: false
+  desired_state: online
