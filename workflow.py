@@ -83,18 +83,3 @@ def kfpipeline():
     
     step_3_8 = funcs['func-1'].as_step(params = {"x" : step_3_7.outputs['return']},outputs = ['return'])
     
-    step_4_1 = funcs['func-1'].as_step(params = {"x" : 0},outputs = ['return'])
-    
-    step_4_2 = funcs['func-1'].as_step(params = {"x" : step_4_1.outputs['return']},outputs = ['return'])
-    
-    step_4_3 = funcs['func-1'].as_step(params = {"x" : step_4_2.outputs['return']},outputs = ['return'])
-    
-    step_4_4 = funcs['func-1'].as_step(params = {"x" : step_4_3.outputs['return']},outputs = ['return'])
-    
-    step_4_5 = funcs['func-1'].as_step(params = {"x" : step_4_4.outputs['return']},outputs = ['return'])
-    
-    step_4_6 = funcs['func-1'].as_step(params = {"x" : step_4_5.outputs['return']},outputs = ['return'])
-    
-    step_4_7 = funcs['func-1'].as_step(params = {"x" : step_4_6.outputs['return']},outputs = ['return'])
-    
-    step_4_8 = funcs['func-1'].as_step(params = {"x" : step_4_7.outputs['return']},outputs = ['return'])
