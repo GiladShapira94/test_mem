@@ -13,6 +13,7 @@ spec:
   - path: workflow.py
     name: main
   artifacts: []
-  source: git://github.com/GiladShapira94/test_mem.git
+  source: git://github.com/GiladShapira94/test_mem.git#refs/heads/master
+  origin_url: git://github.com/GiladShapira94/test_mem.git#refs/heads/master
   load_source_on_run: false
   desired_state: online
